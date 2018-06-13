@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+
+body {
+    background-image:url("../img/background1.jpg"); 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+
+/*menu*/
+
+ul 
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li 
+{
+    display:inline-block;
+
+}
+
+ul li a 
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color:black;
+}
+ul li.active a
+{
+    background-color: white;
+    color:black;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+/*       main       */
+
+main {
+     margin-top: 70px;
+}
+
+.content 
+{
+    display: block;
+    width:650px;
+    height: 100%;
+    margin:0 auto;
+    margin-top: 220px;
+}
+
+.main-h1 
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Passion One', cursive;
+    font-size: 3.2em; 
+}
+
+.main-h2 
+{
+    
+    text-align: center;
+
+
+}
+
+
+/*footer*/
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer a 
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+footer a:hover 
+{
+
+    color:white;
+
+}
+
+/* tabacoo page sectioning */
+
+.epilogue 
+{
+    text-align: center;
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+section 
+{
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
+        margin-top: 60px;
+        text-align: justify;
+}
+
+section ol 
+{
+   list-style: none;
+   text-align: center;
+}
+
+section h3 a 
+{
+    text-decoration: none;
+    color:black;
+
+}
+
+section h3 a:hover 
+{
+    color:white;
+
+}
+
+/*How to page*/
+
+.howto {
+margin-left: 200px;
+margin-right: 200px;
+background-color: rgba(0, 0, 0, 0.1)
+
+}
+
+.assemble {
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+li img {
+
+    width:100%;
+    height:400px ;
+}
+
+ol li {
+    text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+/*lounges*/
+
+.h1lounge{text-align: center;}
+
+.damascus
+{
+    background-image:url("../img/damascus.jpg");
+    width:400px;
+    height:500px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    
+}
+.damascus:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.ziva {
+    background-image:url("../img/ziva.png");
+    width:400px;
+    height:500px;
+    text-align: center;
+    font-size: 1.8em;
+}
+.ziva:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+
+.speshial {
+    background-image:url("../img/speshial.jpg");
+    width:400px;
+    height:500px;
+    text-align: center;
+    font-size: 1.8em;
+}
+.speshial:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+
+.damascus a {
+    color:white;
+    text-decoration: none;
+}
+
+.damascus a:hover {
+
+    color:black;
+
+}
+
+.speshial a {
+    color:white;
+    text-decoration: none;
+}
+
+.speshial a:hover {
+
+    color:black;
+
+}
+
+.ziva a {
+    color:white;
+    text-decoration: none;
+}
+
+.ziva a:hover {
+
+    color:black;
+
+}

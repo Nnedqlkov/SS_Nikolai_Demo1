@@ -1,0 +1,1 @@
+window.onload(alert('You have to be above the age of 18'));
