@@ -2,17 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: Century Gothic;
-    
+    box-sizing: border-box;
 }
 
 body {
-    background-image:url("../img/background1.jpg"); 
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color:white ;
     margin-bottom: 100px;
+    padding-top:20px;
 }
 
 
@@ -62,6 +58,7 @@ header {
 
 main {
      margin-top: 70px;
+
 }
 
 .content 
@@ -164,24 +161,45 @@ margin-right: 200px;
 background-color: rgba(0, 0, 0, 0.1)
 
 }
-
-.assemble {
+.assemble 
+{
+    padding-bottom: 25px;
     text-align: center;
-    padding-top:30px;
-    padding-bottom: 30px;
 }
 
-li img {
 
+.flex-grid { 
+    margin: 0 0 20px 0;
+  }
+  .col {
+    padding: 20px;
+  }
+
+  .flex-grid {
+    display: flex;
+    margin-top:5px;
+    text-align: center;
+  }
+  .flex-grid .col {
+    flex: 1;
+  }
+
+.col img 
+{
+    float: right;
     width:100%;
-    height:400px ;
+    height: 100%;
+
 }
 
-ol li {
-    text-align: center;
-   padding-top: 5px;
-   padding-bottom: 5px;
+.col ul li 
+{
+    padding-top: 10px;
+
 }
+
+.col h3 {padding-bottom:10px;}
+
 
 /*lounges*/
 
@@ -260,3 +278,13 @@ ol li {
     color:black;
 
 }
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  .flex-grid-thirds .col {
+    width: 31%;
+  }
