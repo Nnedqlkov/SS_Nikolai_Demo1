@@ -108,7 +108,7 @@ footer a
 footer a:hover 
 {
 
-    color:white;
+    color:grey;
 
 }
 
@@ -149,7 +149,7 @@ section h3 a
 
 section h3 a:hover 
 {
-    color:white;
+    color:grey;
 
 }
 
@@ -288,3 +288,34 @@ background-color: rgba(0, 0, 0, 0.1)
   .flex-grid-thirds .col {
     width: 31%;
   }
+
+
+
+/*Zoom */
+.zoom:after {
+    content:'';
+    display:block; 
+    width:33px; 
+    height:33px; 
+    position:absolute; 
+    top:0;
+    right:0;
+    background:url(../img/icon.png);
+}
+.zoom img {
+    display: block;
+}
+.zoom img::selection { background-color: transparent; }
+
+
+
+
+
+
+
+
+
+
+
+
+

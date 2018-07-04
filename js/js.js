@@ -5,4 +5,3 @@ function Confirm()
     if (!answer)
     window.location="http://www.comsed.net"
 }
-
