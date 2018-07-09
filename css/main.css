@@ -80,7 +80,7 @@ main {
 
 .main-h2 
 {
-    
+    display: none;
     text-align: center;
 
 
@@ -208,6 +208,7 @@ background-color: rgba(0, 0, 0, 0.1)
 .damascus
 {
     background-image:url("../img/damascus.jpg");
+    background-repeat: no-repeat;
     width:400px;
     height:500px;
     text-align: center;
@@ -222,6 +223,7 @@ background-color: rgba(0, 0, 0, 0.1)
 
 .ziva {
     background-image:url("../img/ziva.png");
+    background-repeat: no-repeat;
     width:400px;
     height:500px;
     text-align: center;
@@ -235,6 +237,7 @@ background-color: rgba(0, 0, 0, 0.1)
 
 .speshial {
     background-image:url("../img/speshial.jpg");
+    background-repeat: no-repeat;
     width:400px;
     height:500px;
     text-align: center;
@@ -307,10 +310,14 @@ background-color: rgba(0, 0, 0, 0.1)
 }
 .zoom img::selection { background-color: transparent; }
 
+/*toggles*/
 
 
+.toggle {display: none;}
 
+.toggle1 {display: none;}
 
+.toggle2 {display: none;}
 
 
 
