@@ -310,8 +310,19 @@ background-color: rgba(0, 0, 0, 0.1)
 }
 .zoom img::selection { background-color: transparent; }
 
-/*toggles*/
+section ol li 
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
 
+.example {color:grey; }
+.example1 {color:grey; }
+.example2 {color:grey; }
+
+.boldaf {font-weight: bold;}
+
+/*toggles*/
 
 .toggle {display: none;}
 
@@ -319,9 +330,29 @@ background-color: rgba(0, 0, 0, 0.1)
 
 .toggle2 {display: none;}
 
+/*tooltips*/
 
+#tooltip1 {display: none;}
 
+#tooltip2 {display: none;}
 
+#tooltip3 {display: none;}
+
+#tooltip4 {display: none;}
+
+#tooltip5 {display: none;}
+
+#tooltip6 {display: none;}
+
+#tooltip7 {display: none;}
+
+#tooltip8 {display: none;}
+
+#tooltip9 {display: none;}
+
+#tooltip10 {display: none;}
+
+#tooltip11 {display: none;}
 
 
 
